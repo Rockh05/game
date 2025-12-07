@@ -7,7 +7,11 @@ define me = Character("主角")
 define yo = Character("學姊")
 define Unknow=Character("???")
 
-
+transform shake:
+    xpos 0 ypos 0  # 原位置
+    linear 0.05 xoffset -10
+    linear 0.05 xoffset 10
+    linear 0.05 xoffset 0
 
 # 遊戲從這裡開始。
 
@@ -46,4 +50,11 @@ label start:
     "但我把所有心力都投入排球。"
     "同學、學姊們的陪伴，沖淡了那份孤單。"
     #---------------------------------------------------ch4
+    scene scene4 with fade
+    "比賽開始，學姊來看我了。"
+    "我們的眼神對上那一瞬間，心跳加速。"
+    scene scene4 at shake
+    "後半場我為救球摔得太用力──"
+    "手肘破皮，膝蓋滲血。"
+
     return
