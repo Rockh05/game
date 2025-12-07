@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ren'Py 快取
+*.rpyc
+*.rpyb
+*.rpyc
+*.rpyc
+*.rpat
+*.rpyc
+
+# Windows/Mac/Linux 打包遊戲
+/game/
+*.apk
+*.exe
+*.app
+
+# 系統檔案
+.DS_Store
+Thumbs.db
