@@ -81,6 +81,6 @@ label start:
     show yo smile at right
     yo "還沒吸收藥效，別亂動。"
     #---------------------------------------ch5
-
+    "test" #可以刪除
 
     return
