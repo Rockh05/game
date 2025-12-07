@@ -8,7 +8,6 @@ define yo = Character("學姊")
 define Unknow=Character("???")
 
 transform shake:
-    xpos 0 ypos 0  # 原位置
     linear 0.05 xoffset -10
     linear 0.05 xoffset 10
     linear 0.05 xoffset 0
@@ -53,8 +52,34 @@ label start:
     scene scene4 with fade
     "比賽開始，學姊來看我了。"
     "我們的眼神對上那一瞬間，心跳加速。"
-    scene scene4 at shake
+    show scene4 at shake
+    show me hurt at left
     "後半場我為救球摔得太用力──"
     "手肘破皮，膝蓋滲血。"
-
+    scene scene5 with fade
+    show me shy at left
+    me "謝謝……"
+    "【學姊（作勢要拍傷口）】"
+    show yo smile at right
+    yo "痛不痛？"
+    show scene3
+    hide me shy
+    show me shock at left
+    me "會、會會會！！"
+    yo "下次小心一點啦。沒看過妳這麼拚命的打法。"
+    "【動作】學姊伸手、摸主角的頭。"
+    scene black
+    "溫暖的觸感，讓我差點想哭。"
+    scene scene5
+    show me shy at left
+    show me smile at right
+    me "謝謝學姊……"
+    yo "妳不要一直說謝謝。"
+    show scene5 at shake
+    hide me shy
+    show me shock at left
+    show yo smile at right
+    yo "還沒吸收藥效，別亂動。"
+    #---------------------------------------ch5
+    
     return
