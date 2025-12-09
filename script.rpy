@@ -19,7 +19,8 @@ label start:
     "夏天的那個午後，草地上還留著太陽的餘溫。一切都柔和得像夢。"
     "那時候的我們，都還好年輕。"
     #---------------------------------------------------ch2
-    show scene2
+    show scene2 with fade
+    with Pause(0.5)
     "我是一個路痴，常常在十字路口面臨多條岔路。"
     "天我漫無目的地亂走，一個轉角"
     show yo smile with fade
@@ -54,7 +55,7 @@ label start:
     "我們的眼神對上那一瞬間，心跳加速。"
     show scene4 at shake
     show me hurt at left
-    "後半場我為救球摔得太用力──"
+    "後半場我為救球摔得太用力"
     "手肘破皮，膝蓋滲血。"
     scene scene5 with fade
     show me shy at left
